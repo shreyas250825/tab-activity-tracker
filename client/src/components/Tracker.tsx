@@ -24,7 +24,8 @@ const Tracker = () => {
           trustScore: newScore
         };
 
-        await axios.post('http://localhost:5000/api/activity', log);
+        await axios.post('https://tab-activity-tracker.onrender.com/api/activity', log);
+
 
       }
     };
